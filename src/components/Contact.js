@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Container, Row, Col, Alert, Button, Form } from "react-bootstrap";
-// import "./contact.css";
+import  "../styles/contact.css";
 
 
 const Contact = () => {
@@ -49,7 +49,7 @@ const Contact = () => {
               <br />
               <br />
             </div>
-            <p>{}</p>
+            
           </Col>
           <Col lg="7" className="d-flex align-items-center">
             <Form onSubmit={handleSubmit} className="contact-form w-100">

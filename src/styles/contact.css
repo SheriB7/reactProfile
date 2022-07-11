@@ -1,0 +1,41 @@
+#contact-area {
+    background: #b39fa9;
+  }
+  
+  .contact-about {
+    font-size: 2.3rem;
+    color: rgb(231, 236, 240);
+    font-family: Georgia, serif;
+  }
+  
+  .contact-form .form-control {
+    padding: 2.5rem 0.75rem;
+    line-height: 1.5;
+    color: var(--text-color);
+    background: var(--bg-color);
+    border-radius: 2rem !important;
+    border: 1px solid var(--secondary-color);
+    box-shadow: 0rem 0rem 2rem 1rem #493f3f, 0 0 5rem rgb(237, 237, 241), 0 0 10rem rgb(224, 214, 221);
+  }
+  
+  .contact-form input.form-control {
+    margin-bottom: 2rem;
+    box-shadow: 0rem 0rem 2rem 1rem #493f3f, 0 0 5rem rgb(237, 237, 241), 0 0 10rem rgb(224, 214, 221);
+    border: 1px solid var(--secondary-color);
+    height: 1.5rem;
+    text-align: center;
+  }
+  
+  textarea {
+    box-shadow: 0rem 0rem 2rem 1rem #493f3f, 0 0 5rem rgb(63, 39, 59), 0 0 10rem rgb(224, 214, 221);
+    border: 1px solid var(--secondary-color);
+    text-align: center;
+  }
+  
+  #subButton {
+    color: rgb(160, 22, 68);
+    background: rgb(228, 217, 224);
+    box-shadow: 0rem 0rem 1rem 0rem rgb(32, 1, 21), 0 0 5rem rgb(23, 11, 19), 0 0 10rem rgb(212, 144, 162);
+    border-color: var(--secondary-color);
+    border-radius: 1rem !important;
+  }

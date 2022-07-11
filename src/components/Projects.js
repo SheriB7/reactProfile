@@ -1,24 +1,59 @@
 import React from "react";
+import { Container, Row, Col } from "react-bootstrap";
+import "../styles/projects.css";
 
-export default function Projects() {
-    return (
-        <div>
-            <h1>Blog Page</h1>
-            <p>
-                Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
-                Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu
-                dictum. Ut vel ante eget massa ornare placerat. Etiam nisl orci, finibus
-                sodales volutpat et, hendrerit ut dolor. Suspendisse porta dictum nunc,
-                sed pretium risus rutrum eget. Nam consequat, ligula in faucibus
-                vestibulum, nisi justo laoreet risus, luctus luctus mi lacus sit amet
-                libero. Class aptent taciti sociosqu ad litora torquent per conubia
-                nostra, per inceptos himenaeos. Mauris pretium condimentum tellus eget
-                lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-                Donec placerat accumsan mi, ut congue neque placerat eu. Donec nec ipsum
-                in velit pellentesque vehicula sit amet at augue. Maecenas aliquam
-                bibendum congue. Pellentesque semper, lectus non ullamcorper iaculis,
-                est ligula suscipit velit, sed bibendum turpis dui in sapien.
-            </p>
+const portfolioImages = [
+  {
+    img: "images/PastelPinkPurpleBouquet.jpeg",
+    desctiption: "Flores Rosa Emilia",
+    link: "https://flores-rosa-emilia.herokuapp.com/",
+  },
+  {
+    img: "images/ebtks2022.png",
+    desctiption: "Home Cooking",
+    link: "https://github.com/SheriB7/home-cooking-app-project-1",
+  },
+];
+
+function Projects() {
+  return (
+    <section className="App-header">
+      <Container id="projects-area">
+        <Row className="mb-5 mt-3">
+          <Col lg="8">
+            <h1 className="display-4 mb-4"> My Projects </h1>{" "}
+            <hr className="t_border my-4 ml-0 text-left" />
+          </Col>
+        </Row>
+        <div className="mb-5 projectItemsBrowse">
+          {portfolioImages.map((data, i) => {
+            return (
+              <div key={i} className="projectItem">
+                <img src={data.img} alt="" />
+                <div className="content">
+                  {/* <p>{data.desctiption}</p>
+                  <a href={data.link} target="_blank">
+                    view project
+                  </a> */}
+                </div>
+              </div>
+            );
+          })}
         </div>
-    );
+      </Container>
+    </section>
+  );
 }
+
+export default Projects;
+
+// export default function Projects() {
+//     return (
+//         <div>
+//             <h1>My Projects</h1>
+//             <p>
+
+//             </p>
+//         </div>
+//     );
+// }
