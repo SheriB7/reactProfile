@@ -1,25 +1,30 @@
 import React from "react";
-import PortfolioContainer from "./components/PortfolioContainer";
 import Header from "./components/Header";
-import Footer from "./components/Footer";
 import NavTabs from "./components/NavTabs";
-
-function App() {
-    return (
-        <div>
-            <Header />
-            <Footer />
-            <NavTabs />
-            <PortfolioContainer />;
-        </div>
-    );
-}
+import PortfolioContainer from "./components/PortfolioContainer";
+import Projects from "./components/Projects";
 
 
+    const App = () => <PortfolioContainer />;
+    <>
+      <NavTabs />
+      <Header />
+      <PortfolioContainer />
+      <Projects />
+    </>
 
-// const App = () => 
+
+
 
 export default App;
+
+// import React from "react";
+// import PortfolioContainer from "./components/PortfolioContainer";
+
+// const App = () => <PortfolioContainer />;
+
+// export default App;
+
 
 
 // import logo from './logo.svg';

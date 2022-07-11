@@ -3,14 +3,11 @@ import React from 'react';
 export default function About() {
     return (
         <div>
-            <h1>About Page</h1>
+            <h1>About Me</h1>
             <p>
-                Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-                Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-                mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-                lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-                imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-                in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
+                As a junior full stack developer I have worked with a team to build a website and other applications.
+                Communicating with front-end and back-end engineers. I work well with project leads. I give my full
+                support. This is a continueing education and always learning something new.
             </p>
         </div>
     );
