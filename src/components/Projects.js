@@ -7,12 +7,12 @@ import cooking from "../images/cooking.png";
 const portfolioImages = [
   {
     img: flores,
-    desctiption: "Flores Rosa Emilia",
+    description: "Flores Rosa Emilia",
     link: "https://flores-rosa-emilia.herokuapp.com/",
   },
   {
     img: cooking,
-    desctiption: "Home Cooking",
+    description: "Home Cooking",
     link: "https://github.com/SheriB7/home-cooking-app-project-1",
   },
 ];

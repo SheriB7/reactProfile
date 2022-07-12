@@ -2,7 +2,7 @@ import React from "react";
 // import Header from "./components/Header";
 // import NavTabs from "./components/NavTabs";
 import PortfolioContainer from "./components/PortfolioContainer";
-// import Projects from "./components/Projects";
+// import Home from "./components/Home";
 import Footer from "./components/Footer";
 
 
@@ -12,7 +12,7 @@ import Footer from "./components/Footer";
       {/* <NavTabs /> */}
       {/* <Header /> */}
       <PortfolioContainer />
-      {/* <Projects /> */}
+      {/* <Home /> */}
       <Footer />
     </>
 

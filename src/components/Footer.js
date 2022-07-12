@@ -9,8 +9,9 @@ function Footer() {
                     href="https://github.com/SheriB7"
                     target="_blank"
                     rel="noreferrer"
+                    
                 >
-                    Github ---
+                    *Github*
                 </a>
                 <a
                     className="footText justify-content-end"
@@ -18,7 +19,7 @@ function Footer() {
                     target="_blank"
                     rel="noreferrer"
                 >
-                    LinkedIn ---
+                    *LinkedIn*
                 </a>
 
             </div>

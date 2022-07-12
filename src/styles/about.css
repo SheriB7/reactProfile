@@ -2,5 +2,8 @@
   color: rgb(219, 227, 235);
   font-family: Georgia, serif;
   text-align: center;
-  background-color: #b39fa9;
-}
+  background: #b39fa9;
+  background-size: cover ;
+  margin: 0.5rem auto;
+  position: relative;
+  }
