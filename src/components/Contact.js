@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Container, Row, Col, Alert, Button, Form } from "react-bootstrap";
-import  "../styles/contact.css";
-
+import "../styles/contact.css";
+import axios from "axios";
 
 const Contact = () => {
   const [formData, setFormdata] = useState({
@@ -14,23 +14,51 @@ const Contact = () => {
     variant: "",
   });
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    setFormdata({ loading: true });
+    const data = {
+      service_id: "service_b1c1z6v",
+      template_id: "template_y4njkta",
+      user_id: "4uycf6jI6rYxV6PB9",
+      template_params: {
+        email: formData.email,
+        name: formData.name,
+        message: formData.message,
+      },
+    };
+    setFormdata({ ...formData, loading: true });
+    try {
+      await axios.post("https://api.emailjs.com/api/v1.0/email/send", data);
+      setFormdata({
+        email: "",
+        name: "",
+        message: "",
+        loading: false,
+        show: false,
+        alertmessage: "",
+        variant: "",
+      });
+    } catch (error) {
+      console.error(error);
+    }
   };
 
   const handleChange = (e) => {
-    setFormdata({
+    const currentForm = {
       ...formData,
       [e.target.name]: e.target.value,
-    });
+    };
+    console.log(currentForm);
+    setFormdata(currentForm);
   };
   return (
     <section className="App-header">
       <Container id="contact-area">
         <Row className="mb-5 mt-3">
           <Col lg="8">
-            <h1 className="display-4 mb-4 contact-about">Contact Information</h1>
+            <h1 className="display-4 mb-4 contact-about">
+              Contact Information
+            </h1>
             <hr />
           </Col>
         </Row>
@@ -49,12 +77,11 @@ const Contact = () => {
               <br />
               <br />
             </div>
-            
           </Col>
           <Col lg="7" className="d-flex align-items-center">
             <Form onSubmit={handleSubmit} className="contact-form w-100">
               <Row>
-              <Col lg="6" className="form-group">
+                <Col lg="6" className="form-group">
                   <input
                     className="form-control"
                     id="name"

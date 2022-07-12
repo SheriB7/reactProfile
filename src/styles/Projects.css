@@ -32,10 +32,16 @@
     
   
   .projectItem .content {
-    opacity: 0;
+    /* opacity: 0; */
     transition-delay: 1s;
     transition: 0.3s ease;
     font-size: 20px;
+  }
+  
+  .description {
+    color: rgb(219, 227, 235);
+    text-decoration: none;
+    
   }
   
   /* .projectItem:hover .content {

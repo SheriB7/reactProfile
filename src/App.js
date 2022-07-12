@@ -1,19 +1,23 @@
 import React from "react";
-import Header from "./components/Header";
-import NavTabs from "./components/NavTabs";
+// import Header from "./components/Header";
+// import NavTabs from "./components/NavTabs";
 import PortfolioContainer from "./components/PortfolioContainer";
-import Projects from "./components/Projects";
+// import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 
 
-    const App = () => <PortfolioContainer />;
+    const App = () => {
+      return (
     <>
-      <NavTabs />
-      <Header />
+      {/* <NavTabs /> */}
+      {/* <Header /> */}
       <PortfolioContainer />
-      <Projects />
+      {/* <Projects /> */}
       <Footer />
     </>
+
+      )
+    }
 
 
 

@@ -1,15 +1,17 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "../styles/projects.css";
+import flores from "../images/PastelPinkPurpleBouquet.jpeg";
+import cooking from "../images/cooking.png";
 
 const portfolioImages = [
   {
-    img: "images/PastelPinkPurpleBouquet.jpeg",
+    img: flores,
     desctiption: "Flores Rosa Emilia",
     link: "https://flores-rosa-emilia.herokuapp.com/",
   },
   {
-    img: "images/ebtks2022.png",
+    img: cooking,
     desctiption: "Home Cooking",
     link: "https://github.com/SheriB7/home-cooking-app-project-1",
   },
@@ -31,10 +33,10 @@ function Projects() {
               <div key={i} className="projectItem">
                 <img src={data.img} alt="" />
                 <div className="content">
-                  {/* <p>{data.desctiption}</p>
-                  <a href={data.link} target="_blank">
+                  <p className = "description">{data.description}</p>                  
+                  <a className = "description" rel="noreferrer" href={data.link} target="_blank">
                     view project
-                  </a> */}
+                  </a>
                 </div>
               </div>
             );
