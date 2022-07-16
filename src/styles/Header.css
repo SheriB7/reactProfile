@@ -1,9 +1,9 @@
 .header {
-    background: #b71775;
+    background: rgb(222, 208, 215);
     height: 200px;
 }
 
-.header h1 {
+.header{
     margin: 0;
     padding-top: 75px;
     text-align: center;

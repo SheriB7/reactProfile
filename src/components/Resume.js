@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "../styles/resume.css";
-import resume from "../images/myResume.jpg";
+import resume from "../images/myResume2022.jpg";
 
 
 const image = [
@@ -18,7 +18,7 @@ function Resume() {
       <Container id="resume-area">
         <Row className="mb-5 mt-3">
           <Col lg="8">
-            <h1 className="display-4 mb-4">My Resume</h1>{" "}
+            <h1 className="resume">My Resume</h1>{" "}
             <hr className="t_border my-4 ml-0 text-center" />
           </Col>
         </Row>

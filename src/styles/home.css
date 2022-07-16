@@ -5,16 +5,16 @@
     background-color: #b39fa9;
   }
   
-  /* .homeItemsBrowse {
+  homeItemsBrowse {
     column-width: 15em;
     -moz-column-width: 15em;
     -webkit-column-width: 15em;
     column-gap: 4rem;
     -moz-column-gap: 4rem;
     -webkit-column-gap: 4rem;
-  } */
+  }
   
-  .homeItem {
+  #homeItem {
     display: inline-block;
     width: 100%;
     text-align: center;

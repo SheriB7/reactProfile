@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+}
+
+main {
+    margin: 8px;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    
+    background: rgb(222, 208, 215);
+    color: rgb(215, 178, 178);
+    font-family: Helvetica;
+    font-weight: 200;
+}
+
+.nav-item {
+    margin-right: auto;
+    font-size: 100%;
+    padding: 8px 10px;
+}
+
+.nav-item {
+    padding: 10px 20px;
+    cursor: pointer;
+    vertical-align: middle;
+}
