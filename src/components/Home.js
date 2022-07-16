@@ -29,11 +29,11 @@ function Home() {
             return (
               <div key={i} className="homeitem">
                 <img src={data.img} alt="" />
-                <div className="content">
+                {/* <div className="content">
                   <p className = "description">{data.description}</p>                  
                   <a className = "description" rel="noreferrer" href={data.link} target="_blank">
                     view about                 </a>
-                </div>
+                </div> */}
               </div>
             );
           })}

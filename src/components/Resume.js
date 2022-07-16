@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "../styles/resume.css";
-import resume from "../images/resume/myResume.jpg";
+import resume from "../images/myResume.jpg";
 
 
 const image = [
@@ -30,13 +30,13 @@ function Resume() {
                 <div className="content">
                   <p className = "description">{data.description}</p> 
                   <a
-        className="w-100 alight-text-center"
-        href="https://www.myperfectresume.com/me/sheri-brown"
-      >
-        Download Resume
-      </a>        
+                className="w-100 alight-text-center"
+                href="https://www.myperfectresume.com/me/sheri-brown"
+              >
+                Digital Resume
+              </a>        
                   {/* <a className = "description" rel="noreferrer" href={data.link} target="_blank">
-                    Download Resume                 </a> */}
+                Download Resume                 </a> */}
                 </div>
               </div>
             );
