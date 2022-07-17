@@ -26,12 +26,13 @@ This portfolio is to show employers who are looking for candidates with experien
  
 
 
-## Video 
-[My Profile Demo]()
+## Screen Shot 
+
+<img src="./images/Screenshot.jpg">
 
 ## Link
-[github repository]()\
-[gh-pages]()
+[github repository](https://github.com/SheriB7/reactProfile)\
+[gh-pages](https://sherib7.github.io/reactProfile/)
 
 
 
