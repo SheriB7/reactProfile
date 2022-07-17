@@ -3,6 +3,7 @@ import React from "react";
 // import NavTabs from "./components/NavTabs";
 import PortfolioContainer from "./components/PortfolioContainer";
 // import Home from "./components/Home";
+import Header from "./components/Header";
 import Footer from "./components/Footer";
 
 
@@ -13,7 +14,9 @@ import Footer from "./components/Footer";
       {/* <Header /> */}
       <PortfolioContainer />
       {/* <Home /> */}
+      <Header />
       <Footer />
+
     </>
 
       )

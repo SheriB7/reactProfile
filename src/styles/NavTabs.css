@@ -1,5 +1,7 @@
 body {
     margin: 0;
+    color: #b39fa9;    
+    
 }
 
 main {
@@ -9,21 +11,24 @@ main {
 .nav-item {
     display: flex;
     align-items: center;
-    
     background: rgb(222, 208, 215);
     color: rgb(215, 178, 178);
     font-family: Helvetica;
     font-weight: 200;
+    border-radius: 2rem !important;
+    /* box-shadow: 0rem 0rem 2rem 1rem #493f3f, 0 0 5rem rgb(237, 237, 241), 0 0 10rem rgb(224, 214, 221); */
 }
 
 .nav-item {
     margin-right: auto;
     font-size: 100%;
     padding: 8px 10px;
+    
 }
 
 .nav-item {
     padding: 10px 20px;
     cursor: pointer;
     vertical-align: middle;
+    border-radius: 2rem !important;
 }

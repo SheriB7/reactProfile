@@ -3,16 +3,18 @@
     font-family: Georgia, serif;
     text-align: center;
     background-color: #b39fa9;
+    box-shadow: 0rem 0rem 2rem 1rem #493f3f, 0 0 5rem rgb(237, 237, 241), 0 0 10rem rgb(224, 214, 221);
+    border-radius: 2rem !important;
   }
   
-  homeItemsBrowse {
+  /* homeItemsBrowse {
     column-width: 15em;
     -moz-column-width: 15em;
     -webkit-column-width: 15em;
     column-gap: 4rem;
     -moz-column-gap: 4rem;
     -webkit-column-gap: 4rem;
-  }
+  } */
   
   #homeItem {
     display: inline-block;

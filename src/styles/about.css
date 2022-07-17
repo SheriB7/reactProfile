@@ -1,9 +1,11 @@
-#about-area {
+.App-about {
   color: rgb(219, 227, 235);
-  font-family: Georgia, serif;
-  text-align: center;
+  font-family: Georgia, serif; 
   background: #b39fa9;
   background-size: cover ;
   margin: 0.5rem auto;
   position: relative;
+  padding: 2rem 0.75rem;
+  border-radius: 2rem !important;
+  
   }

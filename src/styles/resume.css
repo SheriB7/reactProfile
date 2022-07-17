@@ -3,6 +3,7 @@
     font-family: Georgia, serif;
     text-align: center;
     background-color: #b39fa9;
+    box-shadow: 0rem 0rem 2rem 1rem #493f3f, 0 0 5rem rgb(237, 237, 241), 0 0 10rem rgb(224, 214, 221);
   }
   
   /* .resumeItemsBrowse {

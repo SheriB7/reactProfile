@@ -18,7 +18,13 @@ function Resume() {
       <Container id="resume-area">
         <Row className="mb-5 mt-3">
           <Col lg="8">
-            <h1 className="resume">My Resume</h1>{" "}
+            <h1 className="resume">
+                  <a
+                className="w-100 alight-text-right"
+                href="https://www.myperfectresume.com/me/sheri-brown"
+              >
+                My Digital Resume
+              </a>     </h1>   
             <hr className="t_border my-4 ml-0 text-center" />
           </Col>
         </Row>
@@ -29,12 +35,6 @@ function Resume() {
                 <img src={data.img} alt="" />
                 <div className="content">
                   <p className = "description">{data.description}</p> 
-                  <a
-                className="w-100 alight-text-center"
-                href="https://www.myperfectresume.com/me/sheri-brown"
-              >
-                Digital Resume
-              </a>        
                   {/* <a className = "description" rel="noreferrer" href={data.link} target="_blank">
                 Download Resume                 </a> */}
                 </div>
