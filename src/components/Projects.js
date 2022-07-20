@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import "../styles/Projects.css";
+import "../styles/projects.css";
 import flores from "../images/PastelPinkPurpleBouquet.jpeg";
 import cooking from "../images/cooking.png";
 
