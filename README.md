@@ -28,7 +28,10 @@ This portfolio is to show employers who are looking for candidates with experien
 
 ## Screen Shot 
 
-<img src="./images/Screenshot.jpg">
+![My Image](../src/images/screenShot.jpg)
+<!-- <p>
+    <img src="../src/images/screenShot.jpg" width="220" height="240" />
+</p> -->
 
 ## Link
 [github repository](https://github.com/SheriB7/reactProfile)\

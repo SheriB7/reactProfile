@@ -1,5 +1,4 @@
 import React from "react";
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import "../styles/footer.css";
 
 
@@ -14,7 +13,7 @@ function Footer() {
                     rel="noreferrer"
                     
                 >
-                    {/* <FontAwesomeIcon icon="fa-brands fa-github" /> */}
+                    
                     *Github**
                 </a>
                 <a
@@ -24,7 +23,7 @@ function Footer() {
                     rel="noreferrer"
                     
                 >
-                    {/* <FontAwesomeIcon icon="fa-brands fa-linkedin" /> */}
+                    
                                      *LinkedIn*
                 </a>
 
