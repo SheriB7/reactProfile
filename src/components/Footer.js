@@ -1,19 +1,16 @@
 import React from "react";
-import "../styles/footer.css";
-
+// import "../styles/footer.css";
 
 function Footer() {
     return (
-        <footer className="footer" id="footerText">
+        <footer className="footer">
             <div className="content has-text-spaced">
                 <a
                     className="footText1"
                     href="https://github.com/SheriB7"
                     target="_blank"
                     rel="noreferrer"
-                    
                 >
-                    
                     *Github**
                 </a>
                 <a
@@ -21,16 +18,12 @@ function Footer() {
                     href="https://www.linkedin.com/in/sheri-brown-0b012042/"
                     target="_blank"
                     rel="noreferrer"
-                    
                 >
-                    
-                                     *LinkedIn*
+                    *LinkedIn*
                 </a>
-
             </div>
         </footer>
     );
 }
 
 export default Footer;
-
