@@ -79,7 +79,7 @@ const Contact = () => {
             </div>
           </Col>
           <Col lg="7" className="d-flex align-items-center">
-            <Form onSubmit={handleSubmit} className="contact-form w-100">
+                  <Form onSubmit={handleSubmit} className="contact-form w-100">
               <Row>
                 <Col lg="6" className="form-group">
                   <input
@@ -87,10 +87,10 @@ const Contact = () => {
                     id="name"
                     name="name"
                     placeholder="Your Contact Information"
-                    value={formData.name || ""}
+                    // value={formData.name || ""}
                     type="text"
-                    required
-                    onChange={handleChange}
+                    // required
+                    // onChange={handleChange}
                   />
                 </Col>
                 <Col lg="6" className="form-group">

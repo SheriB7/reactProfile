@@ -1,4 +1,4 @@
-/* .footText1{
+.footer{
     margin-top: 1rem;
     padding: .5rem;
     background-color:rgb(222, 208, 215);
@@ -8,7 +8,7 @@
     width: 100%;
   }
 
-  .footText2{
+  /* .footText2{
     margin-top: 1rem;
     padding: .5rem;
     background-color:rgb(222, 208, 215);
